@@ -22,25 +22,22 @@ class TableViewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let feedjson = UserDefaults.standard.value(forKey: "firstPost") as? Data != nil ?
-            UserDefaults.standard.value(forKey: "firstPost") as! Data : Data()
-        let feedDictionary = NSKeyedUnarchiver.unarchiveObject(with: feedjson) as? Dictionary<String,Any> ?? Dictionary<String,Any>()
-        followHashtagAPI()
+        postAPI()
         registerCell()
         
     }
     
     
-    func followHashtagAPI() {
+    func postAPI() {
         
-        let feedjson = UserDefaults.standard.value(forKey: "firstPost") as? Data != nil ?
-            UserDefaults.standard.value(forKey: "firstPost") as! Data : Data()
+        let feedjson = UserDefaults.standard.value(forKey: CACHE_KEY) as? Data != nil ?
+            UserDefaults.standard.value(forKey: CACHE_KEY) as! Data : Data()
         let feedDictionary = NSKeyedUnarchiver.unarchiveObject(with: feedjson) as? Dictionary<String,Any> ?? Dictionary<String,Any>()
         
         if feedDictionary.values.isEmpty {
             
             let dictParameters: [String:Any] = ["emailId": "fdf@gfdfdf.com"]
-            APIManagerClass.sharedManagerClass.hitAPIWithURL(apiURL:"http://surya-interview.appspot.com/list", methodType: .post, dictionaryParameters: dictParameters, completionHandlerSuccess: {(responseInJSON) in
+            APIManagerClass.sharedManagerClass.hitAPIWithURL(apiURL:BASE_URL, methodType: .post, dictionaryParameters: dictParameters, completionHandlerSuccess: {(responseInJSON) in
                 
                 print(responseInJSON)
                 if let dictionaryResponse = responseInJSON as? NSDictionary {
@@ -49,7 +46,7 @@ class TableViewViewController: UIViewController {
                         let temp = dictionaryResponse["message"] as! [String:Any]
                         
                         let userData = NSKeyedArchiver.archivedData(withRootObject: dictionaryResponse)
-                        UserDefaults.standard.set(userData,forKey: "firstPost")
+                        UserDefaults.standard.set(userData,forKey: CACHE_KEY)
                         
                         if let itemsArray = temp["items"] as? [[String:Any]]{
                             
@@ -86,9 +83,9 @@ class TableViewViewController: UIViewController {
                     self.items.append(value)
                 }
                 self.itemTableView.reloadData()
-                UserDefaults.standard.removeObject(forKey: "firstPost")
+                UserDefaults.standard.removeObject(forKey: CACHE_KEY)
                 self.items.removeAll()
-                self.followHashtagAPI()
+                self.postAPI()
             }
         }
         
