@@ -20,6 +20,35 @@
 		0350904B237FF77B0055ECB2 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0350904A237FF77B0055ECB2 /* AppConstant.swift */; };
 		0350904D237FF7AD0055ECB2 /* APIManagerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0350904C237FF7AD0055ECB2 /* APIManagerClass.swift */; };
 		607DEA2CF47FB75BAE47DF04 /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD7D2ECD488369601ED6FE3 /* Pods_AssignmentTests.framework */; };
+		6C53D4032398AEDA00E15BCF /* ChatDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E12398AED900E15BCF /* ChatDataModel.swift */; };
+		6C53D4042398AEDA00E15BCF /* UserMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E32398AED900E15BCF /* UserMessages.swift */; };
+		6C53D4052398AEDA00E15BCF /* UserMessagesStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E42398AED900E15BCF /* UserMessagesStatus.swift */; };
+		6C53D4062398AEDA00E15BCF /* UserMessagesMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E52398AED900E15BCF /* UserMessagesMessage.swift */; };
+		6C53D4072398AEDA00E15BCF /* UserMessagesNewMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E62398AED900E15BCF /* UserMessagesNewMessage.swift */; };
+		6C53D4082398AEDA00E15BCF /* AMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E72398AED900E15BCF /* AMessage.swift */; };
+		6C53D4092398AEDA00E15BCF /* UserMessagesNewMessagesNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E82398AED900E15BCF /* UserMessagesNewMessagesNew.swift */; };
+		6C53D40A2398AEDA00E15BCF /* A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3E92398AED900E15BCF /* A.swift */; };
+		6C53D40B2398AEDA00E15BCF /* UserMessagesNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3EA2398AED900E15BCF /* UserMessagesNew.swift */; };
+		6C53D40C2398AEDA00E15BCF /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3EC2398AED900E15BCF /* ChatsViewController.swift */; };
+		6C53D40D2398AEDA00E15BCF /* OneToOneChatVC+optionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3ED2398AED900E15BCF /* OneToOneChatVC+optionsAPI.swift */; };
+		6C53D40E2398AEDA00E15BCF /* OneToOneChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3EE2398AED900E15BCF /* OneToOneChatViewController.swift */; };
+		6C53D40F2398AEDA00E15BCF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3EF2398AED900E15BCF /* TestViewController.swift */; };
+		6C53D4102398AEDA00E15BCF /* OneToOneChat+SocketIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3F02398AED900E15BCF /* OneToOneChat+SocketIO.swift */; };
+		6C53D4112398AEDA00E15BCF /* ClassChatModelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3F22398AED900E15BCF /* ClassChatModelMessage.swift */; };
+		6C53D4122398AEDA00E15BCF /* ClassChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3F32398AED900E15BCF /* ClassChatModel.swift */; };
+		6C53D4132398AEDA00E15BCF /* GetUserId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3F52398AED900E15BCF /* GetUserId.swift */; };
+		6C53D4142398AEDA00E15BCF /* GetUserIdMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3F62398AED900E15BCF /* GetUserIdMessage.swift */; };
+		6C53D4152398AEDA00E15BCF /* ChatStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C53D3F72398AED900E15BCF /* ChatStoryboard.storyboard */; };
+		6C53D4162398AEDA00E15BCF /* FollowersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3F92398AED900E15BCF /* FollowersTableViewCell.swift */; };
+		6C53D4172398AEDA00E15BCF /* SenderChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C53D3FA2398AED900E15BCF /* SenderChatTableViewCell.xib */; };
+		6C53D4182398AEDA00E15BCF /* SenderChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3FB2398AED900E15BCF /* SenderChatTableViewCell.swift */; };
+		6C53D4192398AEDA00E15BCF /* RecieverChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3FC2398AED900E15BCF /* RecieverChatTableViewCell.swift */; };
+		6C53D41A2398AEDA00E15BCF /* ChatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D3FD2398AED900E15BCF /* ChatsTableViewCell.swift */; };
+		6C53D41B2398AEDA00E15BCF /* ChatsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C53D3FE2398AED900E15BCF /* ChatsTableViewCell.xib */; };
+		6C53D41C2398AEDA00E15BCF /* FollowersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C53D3FF2398AED900E15BCF /* FollowersTableViewCell.xib */; };
+		6C53D41D2398AEDA00E15BCF /* RecieverChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C53D4002398AED900E15BCF /* RecieverChatTableViewCell.xib */; };
+		6C53D41E2398AEDA00E15BCF /* FollowersChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D4012398AED900E15BCF /* FollowersChatViewController.swift */; };
+		6C53D41F2398AEDA00E15BCF /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53D4022398AED900E15BCF /* ConversationViewController.swift */; };
 		73E5F3F851A9597AB2763C04 /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1FD07EDD900ED3A5D40009 /* Pods_Assignment.framework */; };
 		E20609EAC74301F1734E3E71 /* Pods_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA08C3EE82BCCBB026082273 /* Pods_AssignmentUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +93,35 @@
 		229611921A4EC3380E54B064 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		372513E38B46E2A92E210061 /* Pods-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssignmentUITests/Pods-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		43AE7280342F3E80A0D7E1AA /* Pods-AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssignmentTests/Pods-AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C53D3E12398AED900E15BCF /* ChatDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDataModel.swift; sourceTree = "<group>"; };
+		6C53D3E32398AED900E15BCF /* UserMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessages.swift; sourceTree = "<group>"; };
+		6C53D3E42398AED900E15BCF /* UserMessagesStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessagesStatus.swift; sourceTree = "<group>"; };
+		6C53D3E52398AED900E15BCF /* UserMessagesMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessagesMessage.swift; sourceTree = "<group>"; };
+		6C53D3E62398AED900E15BCF /* UserMessagesNewMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessagesNewMessage.swift; sourceTree = "<group>"; };
+		6C53D3E72398AED900E15BCF /* AMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMessage.swift; sourceTree = "<group>"; };
+		6C53D3E82398AED900E15BCF /* UserMessagesNewMessagesNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessagesNewMessagesNew.swift; sourceTree = "<group>"; };
+		6C53D3E92398AED900E15BCF /* A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A.swift; sourceTree = "<group>"; };
+		6C53D3EA2398AED900E15BCF /* UserMessagesNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessagesNew.swift; sourceTree = "<group>"; };
+		6C53D3EC2398AED900E15BCF /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		6C53D3ED2398AED900E15BCF /* OneToOneChatVC+optionsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OneToOneChatVC+optionsAPI.swift"; sourceTree = "<group>"; };
+		6C53D3EE2398AED900E15BCF /* OneToOneChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneToOneChatViewController.swift; sourceTree = "<group>"; };
+		6C53D3EF2398AED900E15BCF /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6C53D3F02398AED900E15BCF /* OneToOneChat+SocketIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OneToOneChat+SocketIO.swift"; sourceTree = "<group>"; };
+		6C53D3F22398AED900E15BCF /* ClassChatModelMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassChatModelMessage.swift; sourceTree = "<group>"; };
+		6C53D3F32398AED900E15BCF /* ClassChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassChatModel.swift; sourceTree = "<group>"; };
+		6C53D3F52398AED900E15BCF /* GetUserId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserId.swift; sourceTree = "<group>"; };
+		6C53D3F62398AED900E15BCF /* GetUserIdMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserIdMessage.swift; sourceTree = "<group>"; };
+		6C53D3F72398AED900E15BCF /* ChatStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatStoryboard.storyboard; sourceTree = "<group>"; };
+		6C53D3F92398AED900E15BCF /* FollowersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersTableViewCell.swift; sourceTree = "<group>"; };
+		6C53D3FA2398AED900E15BCF /* SenderChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenderChatTableViewCell.xib; sourceTree = "<group>"; };
+		6C53D3FB2398AED900E15BCF /* SenderChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderChatTableViewCell.swift; sourceTree = "<group>"; };
+		6C53D3FC2398AED900E15BCF /* RecieverChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieverChatTableViewCell.swift; sourceTree = "<group>"; };
+		6C53D3FD2398AED900E15BCF /* ChatsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsTableViewCell.swift; sourceTree = "<group>"; };
+		6C53D3FE2398AED900E15BCF /* ChatsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatsTableViewCell.xib; sourceTree = "<group>"; };
+		6C53D3FF2398AED900E15BCF /* FollowersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowersTableViewCell.xib; sourceTree = "<group>"; };
+		6C53D4002398AED900E15BCF /* RecieverChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecieverChatTableViewCell.xib; sourceTree = "<group>"; };
+		6C53D4012398AED900E15BCF /* FollowersChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersChatViewController.swift; sourceTree = "<group>"; };
+		6C53D4022398AED900E15BCF /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		8BD041921DD87DE330ECAFE3 /* Pods-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssignmentTests/Pods-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D1FD07EDD900ED3A5D40009 /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD7D2ECD488369601ED6FE3 /* Pods_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +182,7 @@
 		0350900D237FF4F80055ECB2 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				6C53D3DF2398AED900E15BCF /* ChatStoryboard & Controller */,
 				03509049237FF77B0055ECB2 /* Service */,
 				03509048237FF76D0055ECB2 /* Constant */,
 				0350903C237FF5350055ECB2 /* ApiModel */,
@@ -219,6 +278,90 @@
 				EA08C3EE82BCCBB026082273 /* Pods_AssignmentUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C53D3DF2398AED900E15BCF /* ChatStoryboard & Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3E02398AED900E15BCF /* Chat VC */,
+				6C53D3F72398AED900E15BCF /* ChatStoryboard.storyboard */,
+				6C53D3F82398AED900E15BCF /* Custom Cell */,
+				6C53D4012398AED900E15BCF /* FollowersChatViewController.swift */,
+				6C53D4022398AED900E15BCF /* ConversationViewController.swift */,
+			);
+			path = "ChatStoryboard & Controller";
+			sourceTree = "<group>";
+		};
+		6C53D3E02398AED900E15BCF /* Chat VC */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3E12398AED900E15BCF /* ChatDataModel.swift */,
+				6C53D3E22398AED900E15BCF /* User Messages Model */,
+				6C53D3EB2398AED900E15BCF /* Controller */,
+				6C53D3F12398AED900E15BCF /* User Chat List Model */,
+				6C53D3F42398AED900E15BCF /* User Get id Model */,
+			);
+			path = "Chat VC";
+			sourceTree = "<group>";
+		};
+		6C53D3E22398AED900E15BCF /* User Messages Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3E32398AED900E15BCF /* UserMessages.swift */,
+				6C53D3E42398AED900E15BCF /* UserMessagesStatus.swift */,
+				6C53D3E52398AED900E15BCF /* UserMessagesMessage.swift */,
+				6C53D3E62398AED900E15BCF /* UserMessagesNewMessage.swift */,
+				6C53D3E72398AED900E15BCF /* AMessage.swift */,
+				6C53D3E82398AED900E15BCF /* UserMessagesNewMessagesNew.swift */,
+				6C53D3E92398AED900E15BCF /* A.swift */,
+				6C53D3EA2398AED900E15BCF /* UserMessagesNew.swift */,
+			);
+			path = "User Messages Model";
+			sourceTree = "<group>";
+		};
+		6C53D3EB2398AED900E15BCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3EC2398AED900E15BCF /* ChatsViewController.swift */,
+				6C53D3ED2398AED900E15BCF /* OneToOneChatVC+optionsAPI.swift */,
+				6C53D3EE2398AED900E15BCF /* OneToOneChatViewController.swift */,
+				6C53D3EF2398AED900E15BCF /* TestViewController.swift */,
+				6C53D3F02398AED900E15BCF /* OneToOneChat+SocketIO.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C53D3F12398AED900E15BCF /* User Chat List Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3F22398AED900E15BCF /* ClassChatModelMessage.swift */,
+				6C53D3F32398AED900E15BCF /* ClassChatModel.swift */,
+			);
+			path = "User Chat List Model";
+			sourceTree = "<group>";
+		};
+		6C53D3F42398AED900E15BCF /* User Get id Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3F52398AED900E15BCF /* GetUserId.swift */,
+				6C53D3F62398AED900E15BCF /* GetUserIdMessage.swift */,
+			);
+			path = "User Get id Model";
+			sourceTree = "<group>";
+		};
+		6C53D3F82398AED900E15BCF /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6C53D3F92398AED900E15BCF /* FollowersTableViewCell.swift */,
+				6C53D3FA2398AED900E15BCF /* SenderChatTableViewCell.xib */,
+				6C53D3FB2398AED900E15BCF /* SenderChatTableViewCell.swift */,
+				6C53D3FC2398AED900E15BCF /* RecieverChatTableViewCell.swift */,
+				6C53D3FD2398AED900E15BCF /* ChatsTableViewCell.swift */,
+				6C53D3FE2398AED900E15BCF /* ChatsTableViewCell.xib */,
+				6C53D3FF2398AED900E15BCF /* FollowersTableViewCell.xib */,
+				6C53D4002398AED900E15BCF /* RecieverChatTableViewCell.xib */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,8 +473,13 @@
 			files = (
 				03509042237FF5A80055ECB2 /* ItemTableViewCell.xib in Resources */,
 				03509019237FF4F90055ECB2 /* LaunchScreen.storyboard in Resources */,
+				6C53D41B2398AEDA00E15BCF /* ChatsTableViewCell.xib in Resources */,
+				6C53D41C2398AEDA00E15BCF /* FollowersTableViewCell.xib in Resources */,
 				03509016237FF4F90055ECB2 /* Assets.xcassets in Resources */,
 				03509014237FF4F80055ECB2 /* Main.storyboard in Resources */,
+				6C53D41D2398AEDA00E15BCF /* RecieverChatTableViewCell.xib in Resources */,
+				6C53D4172398AEDA00E15BCF /* SenderChatTableViewCell.xib in Resources */,
+				6C53D4152398AEDA00E15BCF /* ChatStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +573,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C53D4062398AEDA00E15BCF /* UserMessagesMessage.swift in Sources */,
+				6C53D4102398AEDA00E15BCF /* OneToOneChat+SocketIO.swift in Sources */,
+				6C53D41F2398AEDA00E15BCF /* ConversationViewController.swift in Sources */,
+				6C53D4182398AEDA00E15BCF /* SenderChatTableViewCell.swift in Sources */,
+				6C53D40F2398AEDA00E15BCF /* TestViewController.swift in Sources */,
+				6C53D4052398AEDA00E15BCF /* UserMessagesStatus.swift in Sources */,
+				6C53D4072398AEDA00E15BCF /* UserMessagesNewMessage.swift in Sources */,
 				0350903E237FF5560055ECB2 /* Item.swift in Sources */,
 				0350904B237FF77B0055ECB2 /* AppConstant.swift in Sources */,
+				6C53D4092398AEDA00E15BCF /* UserMessagesNewMessagesNew.swift in Sources */,
+				6C53D4122398AEDA00E15BCF /* ClassChatModel.swift in Sources */,
+				6C53D41E2398AEDA00E15BCF /* FollowersChatViewController.swift in Sources */,
+				6C53D40E2398AEDA00E15BCF /* OneToOneChatViewController.swift in Sources */,
+				6C53D4142398AEDA00E15BCF /* GetUserIdMessage.swift in Sources */,
+				6C53D40C2398AEDA00E15BCF /* ChatsViewController.swift in Sources */,
+				6C53D41A2398AEDA00E15BCF /* ChatsTableViewCell.swift in Sources */,
 				03509043237FF5A80055ECB2 /* ItemTableViewCell.swift in Sources */,
 				0350904D237FF7AD0055ECB2 /* APIManagerClass.swift in Sources */,
+				6C53D4112398AEDA00E15BCF /* ClassChatModelMessage.swift in Sources */,
+				6C53D40D2398AEDA00E15BCF /* OneToOneChatVC+optionsAPI.swift in Sources */,
+				6C53D4042398AEDA00E15BCF /* UserMessages.swift in Sources */,
+				6C53D40B2398AEDA00E15BCF /* UserMessagesNew.swift in Sources */,
 				03509045237FF6680055ECB2 /* TableViewViewController.swift in Sources */,
+				6C53D4192398AEDA00E15BCF /* RecieverChatTableViewCell.swift in Sources */,
+				6C53D4032398AEDA00E15BCF /* ChatDataModel.swift in Sources */,
+				6C53D4162398AEDA00E15BCF /* FollowersTableViewCell.swift in Sources */,
 				0350900F237FF4F80055ECB2 /* AppDelegate.swift in Sources */,
+				6C53D4082398AEDA00E15BCF /* AMessage.swift in Sources */,
+				6C53D4132398AEDA00E15BCF /* GetUserId.swift in Sources */,
+				6C53D40A2398AEDA00E15BCF /* A.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
